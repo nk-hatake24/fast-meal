@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ResourceFile" version="4">
+  <OBJECT>
+    <ID name="ResourceFile" mc="Standard.Artifact" uid="7376a104-b15e-41ff-a54c-8ac186fc1c3f"/>
+    <PID name="Modèle" mc="Standard.Package" uid="f37b9982-255a-4d2b-8f8a-68588b5d429f"/>
+    <ATTRIBUTES>
+      <ATT name="FileName"></ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ResourceFile]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaResource" mc="Infrastructure.Stereotype" uid="00c80378-0001-ac88-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -201,21 +201,12 @@
         <REFOBJ>
           <ID name="" mc="Standard.AssociationEnd" uid="0a16cc9b-8272-4096-8ff4-45596c1b10a3"/>
         </REFOBJ>
+        <ID name="contrat_embauche" mc="Standard.Class" uid="5f28b37e-4dcd-4f2c-b51a-e22c335cdc5b"/>
         <REFOBJ>
-          <ID name="travailler" mc="Standard.AssociationEnd" uid="de59b944-7081-4d20-b948-cd83467e82f7"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="9682e8cd-86c4-476f-a2e5-f21c487483f4"/>
-        </REFOBJ>
-        <ID name="Restaut_embauche" mc="Standard.Class" uid="5f28b37e-4dcd-4f2c-b51a-e22c335cdc5b"/>
-        <REFOBJ>
-          <ID name="dateEmboche" mc="Standard.Attribute" uid="371249dd-37b6-496f-9576-703dbe01488a"/>
+          <ID name="dateEmbauche" mc="Standard.Attribute" uid="371249dd-37b6-496f-9576-703dbe01488a"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="poste" mc="Standard.Attribute" uid="cbaef7d7-4fac-477c-aa36-b7d7a899010d"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="ClassAssociation" mc="Standard.ClassAssociation" uid="18f1a6a7-3fc0-46cc-8020-6f94686d9dfa"/>
         </REFOBJ>
         <ID name="Panier" mc="Standard.Class" uid="3443ea33-02a6-46d2-9d0e-9c67d74b91cb"/>
         <REFOBJ>
@@ -251,19 +242,6 @@
         </REFOBJ>
         <REFOBJ>
           <ID name="webmaster" mc="Standard.AssociationEnd" uid="8d613c86-5aed-4110-9758-06b4c91828e2"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="webmaster" mc="Standard.AssociationEnd" uid="d3ecdfe1-c02c-425c-91be-1f72f84e91d6"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="69f73aa8-63da-4864-bfc1-ec6fd20e4c2a"/>
-        </REFOBJ>
-        <ID name="PublierBoisson" mc="Standard.Class" uid="3ff55d3e-766d-4a7f-8f4a-0c9e744438e0"/>
-        <REFOBJ>
-          <ID name="ClassAssociation" mc="Standard.ClassAssociation" uid="67280cd9-d8d4-49a4-a562-730bf96eb681"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="datePubli" mc="Standard.Attribute" uid="6b7ab9dc-e5d5-4f94-9cc0-e5a69ea27f8e"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="solde" mc="Standard.Attribute" uid="3df14dcd-27c8-40c4-b6a7-acfea1be0b1b"/>

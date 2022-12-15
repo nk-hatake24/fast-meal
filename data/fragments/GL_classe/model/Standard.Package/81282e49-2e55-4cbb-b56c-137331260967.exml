@@ -18,8 +18,7 @@
         <COMPID name="Service" mc="Standard.Class" uid="b7dab6b4-3015-4354-bbde-e2c925193786"/>
         <COMPID name="platCuisiné" mc="Standard.Class" uid="5ac5a8fb-3fd4-488a-b172-44ba91d86a79"/>
         <COMPID name="Livraison" mc="Standard.Class" uid="adeb9360-43f0-42da-97b0-868360fa5c2c"/>
-        <COMPID name="Restaut_embauche" mc="Standard.Class" uid="5f28b37e-4dcd-4f2c-b51a-e22c335cdc5b"/>
-        <COMPID name="PublierBoisson" mc="Standard.Class" uid="3ff55d3e-766d-4a7f-8f4a-0c9e744438e0"/>
+        <COMPID name="contrat_embauche" mc="Standard.Class" uid="5f28b37e-4dcd-4f2c-b51a-e22c335cdc5b"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de classe Package" mc="Standard.ClassDiagram" uid="a6a4d798-397c-4645-9946-cce36aef0870"/>

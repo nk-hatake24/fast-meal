@@ -27,7 +27,11 @@
         <COMPID name="gestionPayement" mc="Standard.Package" uid="fd14460a-6f71-42c6-b2a7-95a63cdc3142"/>
         <COMPID name="Plat" mc="Standard.Class" uid="eafb1c9d-9cb5-49e1-b4c8-9dcc0230c95f"/>
         <COMPID name="Commande" mc="Standard.Class" uid="e272891b-30f0-442b-851e-11a415017c9c"/>
+        <COMPID name="ResourceFile" mc="Standard.Artifact" uid="7376a104-b15e-41ff-a54c-8ac186fc1c3f"/>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
       <COMP relation="Product">
         <COMPID name="Modèle (SubPackageStructureDiagramTemplate)" mc="Standard.ClassDiagram" uid="be8ff8d9-0383-485c-9f30-f2087c53a73c"/>
         <COMPID name="Diagramme de classe Package" mc="Standard.ClassDiagram" uid="f55ae336-7b17-4f50-add4-843f88ead9af"/>
