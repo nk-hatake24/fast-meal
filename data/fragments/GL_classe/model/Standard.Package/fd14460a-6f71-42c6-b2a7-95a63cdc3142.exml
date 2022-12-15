@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gestionPayement" version="4">
+  <OBJECT>
+    <ID name="gestionPayement" mc="Standard.Package" uid="fd14460a-6f71-42c6-b2a7-95a63cdc3142"/>
+    <PID name="Modèle" mc="Standard.Package" uid="f37b9982-255a-4d2b-8f8a-68588b5d429f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gestionPayement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Banque" mc="Standard.Class" uid="1e57fa2a-a570-4270-876c-baa1d68734a2"/>
+        <COMPID name="Facture" mc="Standard.Class" uid="6b4aaaee-a260-4fd0-9409-8ed5f5a786b7"/>
+        <COMPID name="Payement" mc="Standard.Class" uid="c008e2a1-924e-4324-bf61-777b9b4570cf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Standard.Usage" uid="8b51f874-fa0d-448a-9edd-58f4f5464b67"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="gestionClient" mc="Standard.Package" uid="5b1107b9-b8e1-4abd-98cc-0ba42b5246b6"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.Usage" uid="01f3b515-c99c-4376-a90a-0c40d43f6639"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Gestion employers" mc="Standard.Package" uid="b301c994-4cb9-4926-945e-7a83356b8e30"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.Usage" uid="9c7239c6-0b86-40e0-abc3-01eff8eb8dc6"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="operationClient" mc="Standard.Package" uid="d1a25a27-a3a4-45f3-be91-1415090d91c5"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

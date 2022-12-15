@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="digramme classe" version="4">
+  <OBJECT>
+    <ID name="digramme classe" mc="Standard.Package" uid="81282e49-2e55-4cbb-b56c-137331260967"/>
+    <PID name="gl_classe" mc="Standard.Package" uid="1c091a5d-a5fd-4a4f-8d76-b8281973af19"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[digramme classe]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Adresse" mc="Standard.Class" uid="9bc9853a-ec5e-4d14-bce2-cc3eef935ff6"/>
+        <COMPID name="Service" mc="Standard.Class" uid="b7dab6b4-3015-4354-bbde-e2c925193786"/>
+        <COMPID name="platCuisiné" mc="Standard.Class" uid="5ac5a8fb-3fd4-488a-b172-44ba91d86a79"/>
+        <COMPID name="Livraison" mc="Standard.Class" uid="adeb9360-43f0-42da-97b0-868360fa5c2c"/>
+        <COMPID name="Restaut_embauche" mc="Standard.Class" uid="5f28b37e-4dcd-4f2c-b51a-e22c335cdc5b"/>
+        <COMPID name="PublierBoisson" mc="Standard.Class" uid="3ff55d3e-766d-4a7f-8f4a-0c9e744438e0"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe Package" mc="Standard.ClassDiagram" uid="a6a4d798-397c-4645-9946-cce36aef0870"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

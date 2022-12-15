@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gl_classe" version="4">
+  <OBJECT>
+    <ID name="gl_classe" mc="Standard.Package" uid="1c091a5d-a5fd-4a4f-8d76-b8281973af19"/>
+    <PID name="GL_classe" mc="Standard.Project" uid="a314b463-7e9b-4c60-ad1a-1fa6d0efb45b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gl_classe]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="digramme classe" mc="Standard.Package" uid="81282e49-2e55-4cbb-b56c-137331260967"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

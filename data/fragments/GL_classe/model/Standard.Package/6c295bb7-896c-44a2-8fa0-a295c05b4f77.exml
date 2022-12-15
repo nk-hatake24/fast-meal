@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Objects" version="4">
+  <OBJECT>
+    <ID name="Objects" mc="Standard.Package" uid="6c295bb7-896c-44a2-8fa0-a295c05b4f77"/>
+    <PID name="GL_classe" mc="Standard.Project" uid="a314b463-7e9b-4c60-ad1a-1fa6d0efb45b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Objects]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Declared">
+        <OBJECT>
+          <ID name="client1" mc="Standard.Instance" uid="92a479c7-8ddd-4e2f-a58d-40cd3a04187f"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"><![CDATA[client1]]></ATT>
+            <ATT name="Name"><![CDATA[client1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Client" mc="Standard.Class" uid="720c913f-7285-42f6-9da2-e379dcddee93"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="id" mc="Standard.AttributeLink" uid="a0a1c6e7-fc12-497b-bd6b-14d772b8177e"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[id]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="id" mc="Standard.Attribute" uid="b18de8b7-4dc3-44f3-a4c5-c96b042f12b1"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="nom" mc="Standard.AttributeLink" uid="f402f12f-21b6-4a54-946d-dd6b0a9e5479"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[doe]]></ATT>
+                  <ATT name="Name"><![CDATA[nom]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="nom" mc="Standard.Attribute" uid="507ca51e-4f44-48ee-87f0-fe67244302fa"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="prenom" mc="Standard.AttributeLink" uid="6d2d66f8-4355-4abe-9f14-9f9307eff3df"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[john]]></ATT>
+                  <ATT name="Name"><![CDATA[prenom]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="prenom" mc="Standard.Attribute" uid="6299cd6e-31ca-4ae3-babf-8f8c235a78ac"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="telephone" mc="Standard.AttributeLink" uid="c20b640b-e3c6-482d-9b82-b6ce0f20358d"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[+237612345678]]></ATT>
+                  <ATT name="Name"><![CDATA[telephone]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="telephone" mc="Standard.Attribute" uid="6b96a4f1-a850-4706-b4c3-2e5cf768cb21"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="motPasse" mc="Standard.AttributeLink" uid="e32ed1d8-e964-4db0-a3ee-89e98ad5d66a"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[azerty1234]]></ATT>
+                  <ATT name="Name"><![CDATA[motPasse]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="motPasse" mc="Standard.Attribute" uid="9ed76282-3987-433d-ba6c-7fe1b4c3ea24"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="email" mc="Standard.AttributeLink" uid="d9406e74-4b73-43a6-a8ff-a436cba8a7b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[johndoe@gmail.com]]></ATT>
+                  <ATT name="Name"><![CDATA[email]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="email" mc="Standard.Attribute" uid="1ea545de-4292-4725-bd65-3b1b9a17a79e"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="dateNais" mc="Standard.AttributeLink" uid="6605c620-b210-475c-9615-c3340c4c1d5c"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[20/06/2001]]></ATT>
+                  <ATT name="Name"><![CDATA[dateNais]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="dateNais" mc="Standard.Attribute" uid="5d51cd73-4c77-4bf8-95e6-1e2ca829674e"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="solde" mc="Standard.AttributeLink" uid="95fb4fa9-5b69-4c4d-849e-488cd852b67e"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[0.0]]></ATT>
+                  <ATT name="Name"><![CDATA[solde]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="solde" mc="Standard.Attribute" uid="3ba85ffe-1310-42f0-80eb-fd352e277a01"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme d'objet Objects" mc="Standard.ObjectDiagram" uid="79ebf4d2-1e15-4501-8c09-6b1004992291"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

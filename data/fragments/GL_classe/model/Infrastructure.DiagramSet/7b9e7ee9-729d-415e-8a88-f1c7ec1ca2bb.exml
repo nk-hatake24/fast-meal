@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GL_classe" version="4">
+  <OBJECT>
+    <ID name="GL_classe" mc="Infrastructure.DiagramSet" uid="7b9e7ee9-729d-415e-8a88-f1c7ec1ca2bb"/>
+    <PID name="GL_classe" mc="Standard.Project" uid="a314b463-7e9b-4c60-ad1a-1fa6d0efb45b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[GL_classe]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

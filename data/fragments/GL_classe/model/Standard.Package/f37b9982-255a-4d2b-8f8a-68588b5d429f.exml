@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modèle" version="4">
+  <OBJECT>
+    <ID name="Modèle" mc="Standard.Package" uid="f37b9982-255a-4d2b-8f8a-68588b5d429f"/>
+    <PID name="GL_classe" mc="Standard.Project" uid="a314b463-7e9b-4c60-ad1a-1fa6d0efb45b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modèle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="gestionDesRepasEtBoissons" mc="Standard.Package" uid="d1af96fd-fe57-4d22-87ec-b7be00d1d69c"/>
+        <COMPID name="Gestion employers" mc="Standard.Package" uid="b301c994-4cb9-4926-945e-7a83356b8e30"/>
+        <COMPID name="gestionClient" mc="Standard.Package" uid="5b1107b9-b8e1-4abd-98cc-0ba42b5246b6"/>
+        <COMPID name="operationClient" mc="Standard.Package" uid="d1a25a27-a3a4-45f3-be91-1415090d91c5"/>
+        <COMPID name="Cuisinier" mc="Standard.Class" uid="474878da-254b-4ee1-b7cc-02a86a71e27c"/>
+        <COMPID name="Employer" mc="Standard.Class" uid="32b53fa5-d1d9-4c47-b4dd-df2cc5b41057"/>
+        <COMPID name="Serveur" mc="Standard.Class" uid="0409862a-1954-4804-993f-2edfc4ad215a"/>
+        <COMPID name="Client" mc="Standard.Class" uid="497d164d-c8c0-45f0-939a-092a318effb0"/>
+        <COMPID name="webmaster" mc="Standard.Class" uid="6c585d36-3742-4f29-8f15-d1fa2cd4448d"/>
+        <COMPID name="Personne" mc="Standard.Class" uid="b4420942-ee27-4a84-b851-1a8cf4cecea2"/>
+        <COMPID name="gestionPayement" mc="Standard.Package" uid="fd14460a-6f71-42c6-b2a7-95a63cdc3142"/>
+        <COMPID name="Plat" mc="Standard.Class" uid="eafb1c9d-9cb5-49e1-b4c8-9dcc0230c95f"/>
+        <COMPID name="Commande" mc="Standard.Class" uid="e272891b-30f0-442b-851e-11a415017c9c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Modèle (SubPackageStructureDiagramTemplate)" mc="Standard.ClassDiagram" uid="be8ff8d9-0383-485c-9f30-f2087c53a73c"/>
+        <COMPID name="Diagramme de classe Package" mc="Standard.ClassDiagram" uid="f55ae336-7b17-4f50-add4-843f88ead9af"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

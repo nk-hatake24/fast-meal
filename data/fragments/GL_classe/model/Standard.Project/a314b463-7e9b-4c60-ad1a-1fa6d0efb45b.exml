@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GL_classe" version="4">
+  <OBJECT>
+    <ID name="GL_classe" mc="Standard.Project" uid="a314b463-7e9b-4c60-ad1a-1fa6d0efb45b"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[GL_classe]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="gl_classe" mc="Standard.Package" uid="1c091a5d-a5fd-4a4f-8d76-b8281973af19"/>
+        <COMPID name="Modèle" mc="Standard.Package" uid="f37b9982-255a-4d2b-8f8a-68588b5d429f"/>
+        <COMPID name="Objects" mc="Standard.Package" uid="6c295bb7-896c-44a2-8fa0-a295c05b4f77"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="GL_classe" mc="Infrastructure.DiagramSet" uid="7b9e7ee9-729d-415e-8a88-f1c7ec1ca2bb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
