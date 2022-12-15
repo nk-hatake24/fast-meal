@@ -11,9 +11,10 @@ public class Cuisinier extends Employer {
     private List<platCuisiné> platsCuisinés = new ArrayList<platCuisiné> ();
 
     @objid ("540c243d-a4aa-4078-bdc9-b17696749f78")
-    void setId_cuisi(int value) {
+    int setId_cuisi(int value) {
         // Automatically generated method. Please delete this comment before entering specific code.
         this.id_cuisi = value;
+        return value;
     }
 
     @objid ("223f013e-5650-4bbe-ace0-82ea900512d4")
